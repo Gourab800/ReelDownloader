@@ -24,7 +24,7 @@ const queryClient = new QueryClient();
 function Home() {
   const [url, setUrl] = useState("");
   // state.status: "idle" | "loading" | "success" | "error"
-  const [state, setState] = useState({ status: "idle" });
+  const [state, setState] = useState({ status: "idle" })
 
   const handleFetch = async () => {
     if (!url.trim()) return;
