@@ -111,7 +111,10 @@ function Home() {
             <Instagram className="w-4 h-4 text-white" />
           </div>
           <span className="text-white font-semibold text-base tracking-tight">
-            InstaLoad
+            InstaLoad{" "}
+            <span className="text-white text-sm align-baseline relative top-1 ml-1">
+              ~By Gourab
+            </span>
           </span>
         </div>
         <div className="flex items-center gap-3">
